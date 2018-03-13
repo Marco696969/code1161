@@ -32,7 +32,7 @@ def shout(a_string):
     or in any of the million places that google will give you.
     "python make a string uppercase" is a good starting search query.
     """
-    return string.uppercase
+    return string_uppercase
 
 def really_shout(a_string):
     """Return a string in uppercase, with an exclamation mark on the end.
@@ -41,7 +41,7 @@ def really_shout(a_string):
     from above.
     Look up how to 'concatinate' strings to make this happen.
     """
-    pass
+    return (a_string).uppercase('!')
 
 def shout_with_a_number(a_string, a_number):
     """Return a string in uppercase with a space and a_number concatentated.
@@ -51,7 +51,7 @@ def shout_with_a_number(a_string, a_number):
 
     HINT: Lookup how to cast a_number to a string or lookup how to use f-strings in python
     """
-    pass
+    return string_uppercase ('a_number')
 
 
 def minitest(f, args, expected):
