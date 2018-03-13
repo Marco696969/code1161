@@ -32,8 +32,7 @@ def shout(a_string):
     or in any of the million places that google will give you.
     "python make a string uppercase" is a good starting search query.
     """
-    pass
-
+    return string.uppercase
 
 def really_shout(a_string):
     """Return a string in uppercase, with an exclamation mark on the end.
