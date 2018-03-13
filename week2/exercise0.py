@@ -21,7 +21,7 @@ def adder(a_number, another_number):
 
     Same as above, but with any two numbers.
     """
-    return number1 + number2
+    return a_number + another_number
 
 
 def shout(a_string):
@@ -32,7 +32,7 @@ def shout(a_string):
     or in any of the million places that google will give you.
     "python make a string uppercase" is a good starting search query.
     """
-    return string_uppercase
+    return str.upper(a_string)
 
 def really_shout(a_string):
     """Return a string in uppercase, with an exclamation mark on the end.
@@ -41,7 +41,7 @@ def really_shout(a_string):
     from above.
     Look up how to 'concatinate' strings to make this happen.
     """
-    return (a_string).uppercase('!')
+    return str.upper (a_string) + '!'
 
 def shout_with_a_number(a_string, a_number):
     """Return a string in uppercase with a space and a_number concatentated.
@@ -51,7 +51,7 @@ def shout_with_a_number(a_string, a_number):
 
     HINT: Lookup how to cast a_number to a string or lookup how to use f-strings in python
     """
-    return string_uppercase ('a_number')
+    return a_string.upper() +" " + str(a_number)
 
 
 def minitest(f, args, expected):

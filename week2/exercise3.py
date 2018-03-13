@@ -47,7 +47,12 @@ def loops_1c(number_of_items=5, symbol="#"):
     a string with exacly one symbol in it.
     E.g.: ['#', '#', '#', '#', '#']
     """
-    pass
+    hashtag_list = []
+
+    for jimmy in range(number_of_items=5):
+        hashtag_list.append(symbol="#")
+    return hashtag_list
+
 
 
 def loops_2():
@@ -92,7 +97,13 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-    pass
+    column = []
+    for x in range(10):
+        row = []
+        for y in range(5):
+            row.append("(i" + str(x) + ", j" + str(y) + ")")
+        column.append(row)
+    return column
 
 
 def loops_4():
@@ -112,7 +123,13 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-    pass
+    column = []
+    for x in range(10):
+        row = []
+        for y in range(5):
+            row.append("(i" + str(x) + ", j" + str(y) + ")")
+        column.append(row)
+    return column
 
 
 def loops_5():
@@ -137,8 +154,13 @@ def loops_5():
         "There are {} green bottles".format(8)
     you'll come to see the pros and cons of each over time.
     """
-    pass
-
+    column = []
+    for x in range(10):
+        row = []
+        for y in range(5):
+            row.append("(i" + str(x) + ", j" + str(y) + ")")
+        column.append(row)
+    return column
 
 def loops_6():
     """Make a wedge of numbers.
