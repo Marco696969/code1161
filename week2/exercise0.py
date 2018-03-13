@@ -13,7 +13,7 @@ def add_5(a_number):
         return a_number plus five
     except expressed in python, not english
     """
-    pass
+    return a_number + 5
 
 
 def adder(a_number, another_number):
@@ -21,7 +21,7 @@ def adder(a_number, another_number):
 
     Same as above, but with any two numbers.
     """
-    pass
+    return number1 + number2
 
 
 def shout(a_string):
