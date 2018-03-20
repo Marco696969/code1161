@@ -25,7 +25,12 @@ def lone_ranger(start, stop, step):
 
     Look up the docs for range() and wrap it in a 1:1 way
     """
-    pass
+    a_list = []
+    count = start
+    while count < stop:
+        a_list.append(count)
+        count += step
+    return a_list
 
 
 def two_step_ranger(start, stop):
