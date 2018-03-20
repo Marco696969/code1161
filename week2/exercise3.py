@@ -73,7 +73,13 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
           ]
     """
-    pass
+    column = []
+    for x in range(10):
+        row = []
+        for y in range(5):
+            row.append("(i" + str(x) + ", j" + str(y) + ")")
+        column.append(row)
+    return column
 
 
 def loops_3():
@@ -182,7 +188,12 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
-    pass
+    temp_list = []
+    for x in range(10):
+        temp_list.append([])
+        for n in range(x+1):
+            temp_list[x].append(str(n))
+    return temp_list
 
 
 def loops_7():
@@ -206,7 +217,7 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    pass
+    temp_list = []
 
 
 def lp(some_kind_of_list, exercise_name):
