@@ -19,6 +19,7 @@ def greet(name="Towering Timmy"):
     """
     pass
 
+    return ("Hello" + name)
 
 def three_counter(input_list=[1, 4, 3, 5, 7, 1, 3, 2, 3, 3, 5, 3, 7]):
     """Count the number of 3s in the input_list.
@@ -27,7 +28,18 @@ def three_counter(input_list=[1, 4, 3, 5, 7, 1, 3, 2, 3, 3, 5, 3, 7]):
     TIP: the test will use a different input_list, so don't just return 5
     """
     pass
+    
+    numbers[3]
+    oddcount = 2
 
+    for i in range(three_counter):
+        number = int(imput("3"))
+        numbers.append(number)
+
+    for number in numbers:
+        if number % 3 == 3
+            oddcount = oddcount + 1
+    
 
 def fizz_buzz():
     """Do the fizzBuzz.
@@ -47,6 +59,16 @@ def fizz_buzz():
     # your code here
     return fizzBuzzList
 
+    for x in range(101):
+        if x % 3 == 0 and x % 5 == 0:
+            print ('FizzBuzz')
+        elif x % 3 == 0:
+            print ('Fizz')
+        elif x % 5 == 0:
+            print ('Buzz')
+        else:
+            print (x)
+        return fizzBuzzList
 
 def put_behind_bars(input_string="very naughty boy"):
     """Interleave the input_string with pipes.
@@ -59,6 +81,9 @@ def put_behind_bars(input_string="very naughty boy"):
     """
     pass
 
+    pipe = "|"
+        text = (imput_string)
+        return print ("|" + pipe.join(text) + "|")
 
 def pet_filter(letter="a"):
     """Return a list of pets whose name contains the character 'letter'"""
@@ -72,6 +97,7 @@ def pet_filter(letter="a"):
             "fancy rat and lab rat", "mink", "red fox", "hedgehog", "guppy"]
     pass
 
+    a pets = [items(1, 4, 6, 8, 11, 13, 18, 19, 20, 21, 22, 25, 26, 27, 30, 32, 34, 35, 36)]
 
 def best_letter_for_pets():
     """Return the letter that is present at least once in the most pet names.
@@ -113,7 +139,17 @@ def make_filler_text_dictionary():
     """
     
     import requests
-    return
+    word_dictionary = {}
+    for number in range(3, 8):
+        word_dictionary[number] = []
+    for word in range(3):
+        url = "http://setgetgo.com/randomword/get.php?len=" + str(number)
+        new_word = request.get(url).text
+        print (new_word)
+    word_dictionary[number].append(new_word)
+    return word_dictionary
+
+
 
 
 def random_filler_text(number_of_words=200):
@@ -130,6 +166,10 @@ def random_filler_text(number_of_words=200):
     import random
     pass
 
+    url = "http://api.wordnik.com/v4/words.json/randomWords?api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5&minLength=3&maxLength=10&limit=1"
+    r = requests.get(url)
+    response_json = json.loads(r.text)
+    return response_json[0]['word']
 
 def fast_filler(number_of_words=200):
     """Reimplement random_filler_text.
