@@ -149,9 +149,6 @@ def make_filler_text_dictionary():
     word_dictionary[number].append(new_word)
     return word_dictionary
 
-
-
-
 def random_filler_text(number_of_words=200):
     """Make a paragraph of random filler text.
 
